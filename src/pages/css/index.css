@@ -1,0 +1,130 @@
+.home .content {
+  height: 200px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  user-select: none;
+}
+.home .content img {
+  width: 100%;
+  height: 100%;
+}
+.home .BS {
+  margin: 0 10px;
+  display: flex;
+  border-bottom: 2px solid salmon;
+  border-top: 2px solid salmon;
+  border-radius: 10px;
+}
+.home .BS .rank {
+  flex: 1;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+.home .BS .sort {
+  flex: 1;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+.home .YC {
+  margin: 0 10px;
+  margin-top: 10px;
+}
+.home .YC .yctg {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px 0 10px 0;
+}
+.home .YC .bjzx {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 10px;
+}
+.home .YC .rec_topics {
+  width: 375px;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.home .YC .rec_topics .topics {
+  white-space: nowrap;
+  display: inline-block;
+  width: 185px;
+  height: 110px;
+}
+.home .YC .rec_topics .topics .yclist {
+  width: 185px;
+  padding: 2px 5px;
+  position: relative;
+}
+.home .YC .rec_topics .topics .yclist .cover_image {
+  width: 100%;
+  height: 160px;
+  opacity: 0.9;
+}
+.home .YC .rec_topics .topics .yclist .nickname {
+  position: absolute;
+  bottom: 25px;
+  left: 5px;
+  color: black;
+  font-weight: 800;
+  max-width: 132px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.home .YC .rec_topics .topics .yclist .likes_count {
+  position: absolute;
+  bottom: 25px;
+  right: 5px;
+  color: black;
+  font-weight: 800;
+}
+.home .YC .rec_topics .topics .title {
+  color: black;
+  font-weight: 500;
+}
+.home .discovery {
+  margin: 0 10px;
+  margin-top: 10px;
+}
+.home .discovery .modules .h2 {
+  font-weight: 800;
+  clear: both;
+  margin: 10px 0;
+}
+.home .discovery .modules .verti {
+  position: relative;
+}
+.home .discovery .modules .verti .item2tages {
+  position: absolute;
+  bottom: 3px;
+  left: 0px;
+  font-weight: 800;
+  font-size: medium;
+  color: #090909;
+  max-width: 132px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.home .discovery .modules .verti .usernickname {
+  max-width: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: medium;
+  float: left;
+}
+.home .discovery .modules .verti .dianzan {
+  max-width: 60px;
+  float: right;
+}
+p {
+  margin: 0px;
+}
